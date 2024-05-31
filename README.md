@@ -1,5 +1,17 @@
 # PPPwn_OpenWrt
-Ecco l'expolit testato su modem Technicolor DGA4132 rootato e perfettamente funzionante. Devo Ringraziare @CodeInvers3 per l'idea, ed anche @harsha-0110 per il loader pppwn per CPU ARM V7l. Inizialmente ho testato il lavoro di @CodeInvers3, dove in teoria c'è anche una pagina web che viene hostata dal modem, ma sul DGA4132 non funziona, ne seguiranno ulteriori test. Ovviamente lascio anche i riferimenti per il download dei pppwn loader per varie piattaforme diverse. https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main.
+
+# English
+
+Here is the exploit tested on a rooted Technicolor DGA4132 modem and working perfectly. I have to thank @CodeInvers3 for the idea, and also @harsha-0110 for the pppwn loader for ARM V7l CPUs. Initially I tested the work of @CodeInvers3, where in theory there is also a web page that is hosted by the modem, but on the DGA4132 it does not work, further tests will follow. Obviously I also leave the references for downloading the pppwn [loaders](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main) for various different platforms 
+
+# Italian
+
+Ecco l'expolit testato su modem Technicolor DGA4132 rootato e perfettamente funzionante. Devo Ringraziare @CodeInvers3 per l'idea, ed anche @harsha-0110 per il loader pppwn per CPU ARM V7l. Inizialmente ho testato il lavoro di @CodeInvers3, dove in teoria c'è anche una pagina web che viene hostata dal modem, ma sul DGA4132 non funziona, ne seguiranno ulteriori test. Ovviamente lascio anche i riferimenti per il download dei pppwn [loaders](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main) per varie piattaforme diverse.
+
+# Router TESTED
+```sh
+DGA 4132
+```
 
 ## TEST Effettuato:
 
@@ -92,6 +104,16 @@ root@modemtim:~#
 ```
 
 ## Requisiti:
+
+# English
+
+- Technicolor DGA4132 rooted.
+- Putty.
+- Stage1.bin and Stage2.bin are already inside the offsets folder but I leave the reference of the great @Sistro [repository](https://github.com/SiSTR0/PPPwn/releases).
+- The pppwn loader is also present on the repo.
+- Download goldhen.bin compatible with your PS4
+
+# Italian
 
 - Technicolor DGA4132 rootato.
 - Putty.
