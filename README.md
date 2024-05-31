@@ -1,8 +1,9 @@
 # PPPwn_OpenWrt
-Ecco l'expolit testato su modem Technicolor DGA4132 rootato e perfettamente funzionante. Devo Ringraziare @CodeInvers3 per l'idea, ed anche @harsha-0110 per il loader pppwn per CPU ARM V7l. Inizialmente ho testato il lavoro di @CodeInvers3, dove in teoria c'è anche una pagina web che viene hostata dal modem, ma sul DGA4132 non funziona, ne seguiranno ulteriori test. Ovviamente lascio anche i riferimenti per il download dei pppwn loader per varie piattaforme diverse. [descargar pppwn_cpp repositorio oficial](https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main).
+Ecco l'expolit testato su modem Technicolor DGA4132 rootato e perfettamente funzionante. Devo Ringraziare @CodeInvers3 per l'idea, ed anche @harsha-0110 per il loader pppwn per CPU ARM V7l. Inizialmente ho testato il lavoro di @CodeInvers3, dove in teoria c'è anche una pagina web che viene hostata dal modem, ma sul DGA4132 non funziona, ne seguiranno ulteriori test. Ovviamente lascio anche i riferimenti per il download dei pppwn loader per varie piattaforme diverse. https://nightly.link/xfangfang/PPPwn_cpp/workflows/ci.yaml/main.
 
 ## TEST Effettuato:
 
+```sh
 root@modemtim:~# ./run.sh
 [+] PPPwn++ - PlayStation 4 PPPoE RCE by theflow
 [+] args: interface=br-lan fw=900 stage1=/root/offsets/stage1_900.bin stage2=/root/offsets/stage2_900.bin auto-retry=on
@@ -88,6 +89,7 @@ root@modemtim:~# ./run.sh
 [*] Sending stage2 payload...
 [+] Done!
 root@modemtim:~#
+```
 
 ## Requisiti:
 
