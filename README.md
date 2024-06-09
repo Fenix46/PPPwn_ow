@@ -11,6 +11,7 @@ Ecco l'expolit testato su modem Technicolor DGA4132 rootato e perfettamente funz
 # Router TESTED
 ```sh
 DGA 4132
+TG889vac v2
 ```
 
 ## TEST Effettuato:
